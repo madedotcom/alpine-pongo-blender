@@ -22,8 +22,6 @@ build() {
 
 package() {
     cd "$_builddir"
-    ls
-    
     install -Dm755 $pkgname-$pkgver "$pkgdir/usr/bin/$pkgname"
 }
 
